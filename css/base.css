@@ -1,0 +1,262 @@
+
+
+/* ===========================
+   ======= Body style ======== 
+   =========================== */
+   
+body {
+	background: #353a3f;
+	font-size: 87.5%; /* Base font size: 14px */
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	}
+	
+
+
+/* ===========================
+   ===== Main Navigation ===== 
+   =========================== */
+   
+header {
+	background: #282d32;
+	text-align: center;
+	padding: 30px 0px;
+}
+
+span.main-logo {
+    color: #4cb480;
+    font-size: 32px;
+    position: relative;
+}
+.logo-container {
+    padding-bottom: 15px;
+}
+.logo-container span.main-logo:after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    border-bottom: 4px solid;
+    width: 47%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.header-nav-menu ul li.mainNav-item {
+    padding: 10px 0;
+	text-transform: uppercase;
+	color: #989898;
+    font-weight: 600;
+    font-size: 16px;
+}
+.search-icon button {
+    background: rgba(0,0,0,0);
+}
+.search-icon button img {
+    width: 25px;
+}
+.header-nav-menu li.mainNav-item a:hover {
+    color: #fcfcfc;
+}
+.header-nav-menu li.mainNav-item a {
+    color: #989898;
+}
+.header-nav-menu li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ }
+
+/* ===========================
+   ===== Main Banner ===== 
+   =========================== */
+
+.hero-banner .container:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border-top: 5px solid #4cb480;
+    width: 7%;
+    border-radius: 20px;
+}
+.hero-banner h3 {
+    font-size: 30px;
+    color: #fff;
+}
+.hero-banner h2 {
+    color: #fff;
+    font-size: 50px;
+    margin: 20px 0;
+    font-weight: 900;
+}
+.hero-banner p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #989898;
+}
+
+
+/* ===========================
+   ===== Media Section ===== 
+   =========================== */
+.media-section .container h3  {
+    color: #333 ;
+}
+.media-section .container {
+    width: 30%;
+    text-align: center;
+    background: #f6f6f6;
+    margin: 20px;
+    padding: 0 30px 30px;
+    font-size: 18px;
+    color: #989898;
+}
+
+.media-section {
+    display: flex;
+    justify-content: center;
+}
+.media-section .image-block img {
+    object-fit: contain;
+}
+
+.media-section .image-block {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 100px;
+    margin-top: -40px;
+}
+
+
+
+
+/* ===========================
+   ===== Testimonial Section ===== 
+   =========================== */
+
+.testimonial-section .container:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border-top: 5px solid #989898;
+    width: 7%;
+    border-radius: 20px;
+}
+.testimonial-section .container {
+    font-size: 20px;
+    color: #989898;
+    padding: 20px;
+}
+.testimonial-section .testimonial-container {
+    font-size: 27px;
+    font-weight: 300;
+    font-style: italic;
+    color: #fff;
+    position: relative;
+    padding: 120px 20px 20px;
+}
+.testimonial-section .testimonial-container:before {
+    content: '\201c';
+    font-size: 200px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #4cb480;
+}
+.testimonial-section {
+    background-image: url(../images/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* ===========================
+   ===== Blog Section ===== 
+   =========================== */
+
+.blog-section .container:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border-top: 5px solid #4cb480;
+    width: 7%;
+    border-radius: 20px;
+}
+.blog-section .blog-content {
+    padding: 20px 20px 60px;
+}
+.blog-section h2 {
+    color: #333;
+    font-size: 50px;
+    margin: 20px 0;
+    font-weight: 900;
+}
+.blog-section h3 {
+    font-size: 30px;
+    color: #333333;
+}
+.blog-section p {
+    font-size: 16px;
+    color: #989898;
+}
+.blog-tile .image-block {
+    background: #e0e0e0;
+    margin: 20px;
+}
+.blog-tile div {
+    width: 50%;
+    border-radius: 10px;
+}
+.blog-tile {
+    display: flex;
+}
+
+
+
+
+/* ===========================
+   ===== Footer Section ===== 
+   =========================== */
+.footer-nav ul li {
+    padding-right: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.footer-nav ul {
+    display: flex;
+}
+.footer-nav li.mainNav-item a {
+    color: #989898;
+}
+.footer-nav li.mainNav-item a:hover {
+    color: #fff;
+}
+.footer-nav {
+    color: #6f6f6f;
+}
+.social-section img {
+    margin: auto 10px;
+    cursor: pointer;
+}
+.footer-nav {
+    display: flex;
+}
+.footer-nav div.nav-section {
+    width: 84%;
+}
+.footer-nav div {
+    align-self: center;
+}

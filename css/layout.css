@@ -1,0 +1,27 @@
+
+.container {
+	padding:20px ;
+	position: relative;
+}
+header {
+    width: 12%;
+    position: fixed;
+	height: 100vh;
+	top: 0;
+}
+
+.main-content {
+	padding-left: 12%;
+}
+.hero-banner , .testimonial-section {
+    padding: 8% 20%;
+}
+.media-section, .blog-section {
+	padding: 8% ;
+	background-color: #fff;
+}
+footer {
+	padding: 3% 8%
+}
+
+ 
